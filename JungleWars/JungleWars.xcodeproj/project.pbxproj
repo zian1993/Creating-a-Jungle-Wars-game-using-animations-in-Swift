@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4760E7D121B4F63E003AE193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760E7D021B4F63E003AE193 /* AppDelegate.swift */; };
+		4760E7D321B4F63E003AE193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760E7D221B4F63E003AE193 /* ViewController.swift */; };
+		4760E7D621B4F63E003AE193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7D421B4F63E003AE193 /* Main.storyboard */; };
+		4760E7D821B4F63E003AE193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7D721B4F63E003AE193 /* Assets.xcassets */; };
+		4760E7DB21B4F63E003AE193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7D921B4F63E003AE193 /* LaunchScreen.storyboard */; };
+		4760E7E321B5000E003AE193 /* JungleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760E7E221B5000E003AE193 /* JungleView.swift */; };
+		4760E7EC21B502A8003AE193 /* cobra.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E421B502A8003AE193 /* cobra.png */; };
+		4760E7ED21B502A8003AE193 /* jungleframe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E521B502A8003AE193 /* jungleframe.jpg */; };
+		4760E7EE21B502A8003AE193 /* lion0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E621B502A8003AE193 /* lion0.png */; };
+		4760E7EF21B502A8003AE193 /* lion1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E721B502A8003AE193 /* lion1.png */; };
+		4760E7F021B502A8003AE193 /* lion2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E821B502A8003AE193 /* lion2.png */; };
+		4760E7F121B502A8003AE193 /* lion3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7E921B502A8003AE193 /* lion3.png */; };
+		4760E7F221B502A8003AE193 /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7EA21B502A8003AE193 /* rabbit.png */; };
+		4760E7F321B502A8003AE193 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 4760E7EB21B502A8003AE193 /* title.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4760E7CD21B4F63E003AE193 /* JungleWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JungleWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4760E7D021B4F63E003AE193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4760E7D221B4F63E003AE193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4760E7D521B4F63E003AE193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4760E7D721B4F63E003AE193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4760E7DA21B4F63E003AE193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4760E7DC21B4F63E003AE193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4760E7E221B5000E003AE193 /* JungleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JungleView.swift; sourceTree = "<group>"; };
+		4760E7E421B502A8003AE193 /* cobra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cobra.png; sourceTree = "<group>"; };
+		4760E7E521B502A8003AE193 /* jungleframe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungleframe.jpg; sourceTree = "<group>"; };
+		4760E7E621B502A8003AE193 /* lion0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion0.png; sourceTree = "<group>"; };
+		4760E7E721B502A8003AE193 /* lion1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion1.png; sourceTree = "<group>"; };
+		4760E7E821B502A8003AE193 /* lion2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion2.png; sourceTree = "<group>"; };
+		4760E7E921B502A8003AE193 /* lion3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion3.png; sourceTree = "<group>"; };
+		4760E7EA21B502A8003AE193 /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rabbit.png; sourceTree = "<group>"; };
+		4760E7EB21B502A8003AE193 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		477F0EA221B7F65F00A5E160 /* LionRoar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LionRoar.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4760E7CA21B4F63E003AE193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4760E7C421B4F63E003AE193 = {
+			isa = PBXGroup;
+			children = (
+				4760E7CF21B4F63E003AE193 /* JungleWars */,
+				4760E7CE21B4F63E003AE193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4760E7CE21B4F63E003AE193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4760E7CD21B4F63E003AE193 /* JungleWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4760E7CF21B4F63E003AE193 /* JungleWars */ = {
+			isa = PBXGroup;
+			children = (
+				477F0EA221B7F65F00A5E160 /* LionRoar.m4a */,
+				4760E7E421B502A8003AE193 /* cobra.png */,
+				4760E7E521B502A8003AE193 /* jungleframe.jpg */,
+				4760E7E621B502A8003AE193 /* lion0.png */,
+				4760E7E721B502A8003AE193 /* lion1.png */,
+				4760E7E821B502A8003AE193 /* lion2.png */,
+				4760E7E921B502A8003AE193 /* lion3.png */,
+				4760E7EA21B502A8003AE193 /* rabbit.png */,
+				4760E7EB21B502A8003AE193 /* title.png */,
+				4760E7D021B4F63E003AE193 /* AppDelegate.swift */,
+				4760E7D221B4F63E003AE193 /* ViewController.swift */,
+				4760E7D421B4F63E003AE193 /* Main.storyboard */,
+				4760E7D721B4F63E003AE193 /* Assets.xcassets */,
+				4760E7D921B4F63E003AE193 /* LaunchScreen.storyboard */,
+				4760E7DC21B4F63E003AE193 /* Info.plist */,
+				4760E7E221B5000E003AE193 /* JungleView.swift */,
+			);
+			path = JungleWars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4760E7CC21B4F63E003AE193 /* JungleWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4760E7DF21B4F63E003AE193 /* Build configuration list for PBXNativeTarget "JungleWars" */;
+			buildPhases = (
+				4760E7C921B4F63E003AE193 /* Sources */,
+				4760E7CA21B4F63E003AE193 /* Frameworks */,
+				4760E7CB21B4F63E003AE193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JungleWars;
+			productName = JungleWars;
+			productReference = 4760E7CD21B4F63E003AE193 /* JungleWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4760E7C521B4F63E003AE193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hassan Khan";
+				TargetAttributes = {
+					4760E7CC21B4F63E003AE193 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4760E7C821B4F63E003AE193 /* Build configuration list for PBXProject "JungleWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4760E7C421B4F63E003AE193;
+			productRefGroup = 4760E7CE21B4F63E003AE193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4760E7CC21B4F63E003AE193 /* JungleWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4760E7CB21B4F63E003AE193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4760E7F021B502A8003AE193 /* lion2.png in Resources */,
+				4760E7DB21B4F63E003AE193 /* LaunchScreen.storyboard in Resources */,
+				4760E7F121B502A8003AE193 /* lion3.png in Resources */,
+				4760E7D821B4F63E003AE193 /* Assets.xcassets in Resources */,
+				4760E7EF21B502A8003AE193 /* lion1.png in Resources */,
+				4760E7F221B502A8003AE193 /* rabbit.png in Resources */,
+				4760E7EE21B502A8003AE193 /* lion0.png in Resources */,
+				4760E7D621B4F63E003AE193 /* Main.storyboard in Resources */,
+				4760E7EC21B502A8003AE193 /* cobra.png in Resources */,
+				4760E7ED21B502A8003AE193 /* jungleframe.jpg in Resources */,
+				4760E7F321B502A8003AE193 /* title.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4760E7C921B4F63E003AE193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4760E7D321B4F63E003AE193 /* ViewController.swift in Sources */,
+				4760E7D121B4F63E003AE193 /* AppDelegate.swift in Sources */,
+				4760E7E321B5000E003AE193 /* JungleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4760E7D421B4F63E003AE193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4760E7D521B4F63E003AE193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4760E7D921B4F63E003AE193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4760E7DA21B4F63E003AE193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4760E7DD21B4F63E003AE193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4760E7DE21B4F63E003AE193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4760E7E021B4F63E003AE193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JungleWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Khan.JungleWars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4760E7E121B4F63E003AE193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JungleWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Khan.JungleWars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4760E7C821B4F63E003AE193 /* Build configuration list for PBXProject "JungleWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4760E7DD21B4F63E003AE193 /* Debug */,
+				4760E7DE21B4F63E003AE193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4760E7DF21B4F63E003AE193 /* Build configuration list for PBXNativeTarget "JungleWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4760E7E021B4F63E003AE193 /* Debug */,
+				4760E7E121B4F63E003AE193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4760E7C521B4F63E003AE193 /* Project object */;
+}
